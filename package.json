@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/nnphan/NodejsProject/issues"
   },
-  "homepage": "https://github.com/nnphan/NodejsProject#readme"
+  "homepage": "https://github.com/nnphan/NodejsProject#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.5",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  }
 }
